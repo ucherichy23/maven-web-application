@@ -33,7 +33,6 @@ Build is done.
 
 uchechiA''', recipientProviders: [contributor(), developers(), upstreamDevelopers()], subject: 'build status', to: 'uchejennyagbara@gmail.com'
    }
-    */
-    }
-}    
+   */
+}   
    
