@@ -6,7 +6,6 @@ git "https://github.com/ucherichy23/maven-web-application"
 stage('2-MavenBuild'){
    sh "${mavenHome}/bin/mvn package"
  }
- /*  
  stage('3codeQuality'){
    sh "${mavenHome}/bin/mvn sonar:sonar"
  }
@@ -33,6 +32,6 @@ Build is done.
 
 uchechiA''', recipientProviders: [contributor(), developers(), upstreamDevelopers()], subject: 'build status', to: 'uchejennyagbara@gmail.com'
    }
-   */
+   
 }   
    
